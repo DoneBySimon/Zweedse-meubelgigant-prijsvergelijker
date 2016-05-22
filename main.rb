@@ -17,7 +17,7 @@ def get_local_ikea(landcode, productid)
 end
 
 def get_product_codes
-  filename = File.expand_path(File.dirname(__FILE__)) + "/20151223 - keuken.pdf"
+  filename = File.expand_path(File.dirname(__FILE__)) + "/testfiles/testlist.pdf"
   nummers =[]
   PDF::Reader.open(filename) do |reader|
     reader.pages.each do |page|

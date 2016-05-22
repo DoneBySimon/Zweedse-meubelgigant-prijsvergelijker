@@ -1,4 +1,4 @@
-require 'rubygems'
+gerequire 'rubygems'
 require 'pdf/reader'
 
 filename = File.expand_path(File.dirname(__FILE__)) + "/list2.pdf"
